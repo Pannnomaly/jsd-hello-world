@@ -743,13 +743,13 @@ body {
 	background-color: white;
 }
 #participant-39 .profile-photo {
-	background-image: url("../images/participant-photo.png");
+	background-image: url("../images/Pannnomaly.jpg");
 }
 #participant-39 .participant-name::before {
   content: "39_Supawith(Pann)";
 }
 #participant-39 .participant-quote::before {
-	/* content: "Your inspirational quote here." */
+	content: "เกือบจะเท่ละ ดันลืมใส่ semicolon";
 }
 
 /* Next participant */
