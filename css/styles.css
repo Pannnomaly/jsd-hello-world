@@ -497,17 +497,45 @@ body {
 }
 
 /* Next participant */
-#participant-22 {
-	background-color: white;
+
+#participant-22{
+  background-image: url("../images/bg.jpg");
+  background-position: center;
+  background-color: #e0f7fa;
+  border: 3px solid #ccd3e5;
+  box-shadow:  1px 0px 10px 7px rgba(0, 121, 107, 0.4);
+  border-radius: 15px;
 }
+
+#participant-22:hover {
+  background-image: url("../images/bg2.jpg");
+  /* background-color: #e0f7fa; */
+  border: 3px solid #bdbd06;
+  box-shadow: 1px 50px 100px rgba(192, 228, 11, 0.4);
+  border-radius: 15px;
+  transform: rotate(-360deg);
+}
+
 #participant-22 .profile-photo {
-	background-image: url("../images/participant-photo.png");
+  background-image: url("../images/man-picture.png");
+  border-color: #333;
 }
+
+#participant-22 .profile-photo:hover {
+  background-image: url("../images/man-picture2.png");
+  border-color: #333;
+}
+
 #participant-22 .participant-name::before {
-  content: "22_natee(Man)";
+  content: "🚀22_natee(Man)";
 }
 #participant-22 .participant-quote::before {
-	/* content: "Your inspirational quote here." */
+  content: "The best way to predict your future is to create it."
+}
+#participant-22 .profile-photo:hover {
+  transform: scale(2);
+  transform: rotate3d();
+  box-shadow: 0 4px 10px rgba(123, 197, 3, 0.6);
 }
 
 /* Next participant */
