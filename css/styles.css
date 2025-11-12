@@ -178,10 +178,11 @@ body {
 
 /* Next participant */
 #participant-6 {
-  background-color: white;
+	background-image: url("../images/blue_flame.gif");
+  border: 3px solid #000000;
 }
 #participant-6 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+	background-image: url("../images/rice-shower-eevee-v0-3ehjz2r3bn5f1.jpg");
 }
 #participant-6 .participant-name::before {
   content: "06_Chanapoom(Poom/ภูมิ)";
@@ -192,10 +193,13 @@ body {
 
 /* Next participant */
 #participant-7 {
-  background-color: #e0f7fa;
-  border: 3px solid #00796b;
-  box-shadow: 0 4px 10px rgba(0, 121, 107, 0.4);
+  background: linear-gradient(135deg, #f7f7f5 0%, #ffffff 100%);
+  border: 3px solid #da2dcc;
+  box-shadow: 0 6px 15px rgba(218, 45, 204, 0.35), 0 2px 6px rgba(0, 0, 0, 0.1);
   border-radius: 15px;
+  padding: 15x;
+  text-align: center;
+  transition: all 0.3s ease;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
@@ -203,9 +207,21 @@ body {
 }
 #participant-7 .profile-photo {
   background-image: url("../images/fd763e2c-9dac-407e-9f14-f8cb07c599d0.jpeg");
+   margin: 0 auto 12px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  border: 3px solid #da2dcc;
+  box-shadow: 0 4px 10px rgba(218, 45, 204, 0.4);
+  
 }
+#participant-7:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 12px 25px rgba(218, 45, 204, 0.4), 0 0 20px rgba(218, 45, 204, 0.3);
+}
+
 #participant-7 .participant-name::before {
-  content: "Chut";
+  content: "Chut(ชัด)";
 }
 #participant-7 .participant-quote::before {
   content: "Everything is gone";
@@ -213,16 +229,27 @@ body {
 
 /* Next participant */
 #participant-8 {
-  background-color: white;
+
+  /* background-color: white; */
+  background-image: url(../images/bg.png);
+   background-size: cover;
+  background-position: center;
+  border: 3px solid yellow;
+  box-shadow: 4px 4px 10px rgb(243, 146, 0);
+  border-radius: 30px;
 }
 #participant-8 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+  background-image: url("../images/NameBright\ -\ Coming\ Soon.jpg");
+  border: 2px solid #333;
 }
 #participant-8 .participant-name::before {
   content: "08_chettha(aek)";
+  color: black;
 }
 #participant-8 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+
+  content: "i'm comming soon";
+  color: black;
 }
 
 /* Next participant */
@@ -244,19 +271,30 @@ body {
 
 /* Next participant */
 #participant-10 {
-  background-color: lavender;
+  background-color: rgb(255, 185, 171);
   border: 3px solid rgb(240, 157, 240);
   box-shadow: 0 4px 10px goldenrod;
   border-radius: 15px;
+  animation: glow 2s ease-in-out infinite alternate;
 }
 #participant-10 .profile-photo {
   background-image: url("../images/jack-profile.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 10px auto;
+  box-shadow: 0 0 15px gold;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+@keyframes glow {
+  from { box-shadow: 0 0 25px gold; }
+  to { box-shadow: 0 0 25px violet; }
 }
 #participant-10 .participant-name::before {
   content: "Chutikarn Kintorn";
 }
 #participant-10 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+
+  content: "อยู่เฉยๆ ก็สบายล่ะ"
 }
 
 /* Next participant */
@@ -612,17 +650,39 @@ body {
 }
 
 /* Next participant */
+
+
 #participant-26 {
-  background-color: white;
+
+	background-color: white;
+  background-image: url(/images/background\ onep.gif) ;
+  background-size: cover;
+}
+#participant-26:hover .profile-photo {
+  visibility: hidden;
+}
+#participant-26:hover  {
+	background-image: url(../images/gear-5-one-piece.gif);
 }
 #participant-26 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+	background-image: url("../images/luffy.webp");
 }
+
 #participant-26 .participant-name::before {
   content: "26_Oassalam(Us)";
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
 }
 #participant-26 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+
+	content: "Rise and grind.";
+  color:rgb(255, 255, 255);
+  /* text-shadow: 2px 2px 6px rgba(0,0,0,0.9); */
+  background-color: rgba(0,0,0,0.5); /* ดำโปร่ง 50% */
+  padding: 2.5px 5px;
+  border-radius: 8px;
+  display: inline-block;
 }
 
 /* Next participant */
@@ -641,16 +701,18 @@ body {
 
 /* Next participant */
 #participant-28 {
-  background: linear-gradient(135deg, #e4a1fd, #8dcfee);
+
+  background-color: white;
 }
 #participant-28 .profile-photo {
-  background-image: url("../images/photo-28.jpg");
-  border: 1px solid #333;
+  background-image: url("../images/participant-photo.png");
+
 }
 #participant-28 .participant-name::before {
   content: "28_Pawarisa(Mew)";
 }
 #participant-28 .participant-quote::before {
+
   content: "Jingle all the way";
 }
 
@@ -746,7 +808,8 @@ body {
   background-image: url("../images/participant-photo.png");
 }
 #participant-35 .participant-name::before {
-  content: "35_Rungarun (Mameaw)";
+  font-size: 13px;
+  content: "35_Rungarun\00A0(Mameaw)";
 }
 #participant-35 .participant-quote::before {
   /* content: "Your inspirational quote here." */
